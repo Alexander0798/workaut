@@ -1,0 +1,59 @@
+.Button {
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Button:hover {
+  opacity: 0.7;
+}
+
+.clear,
+.clearInverted {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.outline {
+  border: 1px solid var(--colorDecoration);
+  background: var(--bg-secondary);
+  min-height: 30px;
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 15px;
+  background: var(--colorDecoration);
+  color: var(--bg-secondary);
+  border: none;
+  width: 100%;
+}
+
+.size_m {
+  font: var(--font-m);
+}
+
+.size_l {
+  font: var(--font-l);
+}
+
+.size_xl {
+  font: var(--font-xl);
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+@media (min-width: 1000px) {
+  .outline {
+    min-height: 40px;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=Button.module.css.map */

@@ -1,0 +1,58 @@
+@import 'reset';
+@import 'variables/global';
+body,
+.app {
+  font: var(--font-m);
+  color: var(--primary-color);
+}
+.swiper-button-prev::after {
+  margin-left: -22px !important;
+}
+.swiper-button-next::after {
+  margin-left: -22px !important;
+}
+.app {
+  background: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page-wrapper {
+  width: 100%;
+}
+
+.content-page {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.width-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--colorDecoration);
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+.buttonAdmin {
+  padding: 15px !important;
+  font-size: 35px !important;
+  color: var(--red-dark);
+  position: absolute;
+  z-index: 10;
+}
+
+.ymaps-2-1-79-gototech,
+.ymaps-2-1-79-copyright__link,
+.ymaps-2-1-79-gototaxi__container {
+  display: none !important;
+}

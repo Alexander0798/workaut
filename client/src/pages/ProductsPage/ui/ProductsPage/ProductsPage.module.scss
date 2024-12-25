@@ -1,0 +1,17 @@
+.ProductsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 650px) {
+  .ProductsPage {
+    gap: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .ProductsPage {
+    gap: 30px;
+  }
+}

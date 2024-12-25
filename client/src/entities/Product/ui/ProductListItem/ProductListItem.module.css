@@ -1,0 +1,36 @@
+.ProductListItem {
+  width: 310px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  cursor: pointer;
+  position: relative;
+}
+.ProductListItem:hover {
+  box-shadow: 0 -7px 5px -3px var(--secondary-color);
+}
+
+.img {
+  width: 100%;
+  height: 292px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  margin-top: auto;
+}
+
+@media (min-width: 390px) {
+  .ProductListItem {
+    width: 345px;
+  }
+}/*# sourceMappingURL=ProductListItem.module.css.map */
